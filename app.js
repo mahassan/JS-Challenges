@@ -33,5 +33,8 @@ library[1].status.read = true;
 library[2].status.read = true;
 //console.log(library) //to read if read prop change to true
 
-const {title: firstBook} = library[0]
-console.log(firstBook)
+// const {title: firstBook} = library[0]
+// console.log(firstBook)
+
+const stringed = JSON.stringify(library);
+console.log(stringed);
