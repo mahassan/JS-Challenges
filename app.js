@@ -1,23 +1,11 @@
-function calculator(num1, num2, operator){
-   switch(operator){
-      case "*":
-         console.log(num1 * num2);
-         break;
-      case "+":
-         console.log(num1 + num2);
-         break;
-      case "/":
-         console.log(num1 / num2);
-         break;
-      case "-":
-         console.log(num1 - num2);
-         break;
-      default:
-         console.log('There is a issue')
+function findEven(arr){
+ arr.forEach(num =>{
+   if(num % 2 === 0){
+     console.log(`${num} is even`)
    }
+ })
 }
-calculator(2,2,'*')
-calculator(4,4,'+')
-calculator(3,6,'-')
-calculator(2,2,'/')
-calculator(2,2)
+
+const arrays = [1,2,3,4,5,6,7,8,9,10];
+
+findEven(arrays)

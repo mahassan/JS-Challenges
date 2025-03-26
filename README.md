@@ -1,3 +1,5 @@
-# JS Challenges
-- This is JS challenges from Brad Travsary course on JS, it is practice sandbox
-- Switch to each branch to check each challenge and probably its solution.
+# Calculator Challenge
+
+Create a function that will use `forEach` to output even numbers. When successful use `filter` method to redo the exercise.
+
+
