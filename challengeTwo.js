@@ -18,4 +18,14 @@ const companies = [
                }
             })
     }
-    filterCategory(companies)
+    //Get companies that were build in or after 1980 and ended in or before 2015
+    function filterTenure(companies){
+        companies.filter((yr)=>{
+            if(yr.start >= '1980' && yr.end <= 2015){
+                console.log(yr)
+            }
+        })
+    }
+
+    //filterCategory(companies)
+    filterTenure(companies)
