@@ -26,6 +26,16 @@ const companies = [
             }
         })
     }
+    //Get companies that has lasted less than 10 years
+    // function decadeFilter(companies){
+    //     companies.filter((c)=>{
+    //         if(c.end - c.start >= 10){
+    //             console.log(c)
+    //         }
+    //     })
+    // }
+    const decadeFilter = companies.filter((company)=> (company.end = company.start >=10))
 
     //filterCategory(companies)
-    filterTenure(companies)
+    //filterTenure(companies)
+    console.log(decadeFilter);
